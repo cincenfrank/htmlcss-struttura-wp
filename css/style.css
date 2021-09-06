@@ -35,6 +35,10 @@ footer {
   display: table;
 }
 
+.clearfix > * {
+  margin-bottom: 20px;
+}
+
 .row1 {
   height: 600px;
   background-color: yellow;
@@ -42,7 +46,7 @@ footer {
 
 .row2 {
   background-color: blue;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 .row2-header {
@@ -56,5 +60,6 @@ footer {
   float: left;
   background-color: cadetblue;
   height: 600px;
-  margin: 0 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
